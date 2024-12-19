@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.cabecalho {
+    width: 100%;
+    height: 130px;    /* Aqui eu queria remover o fundo do navbar para dar o charme*/
+    display: flex;
+    align-items: center;
+    position: absolute; /* Para colocar sobre o carrossel */
+    top: 0;
+    z-index: 10; /* Certifica-se de que está acima do carrossel */
+    background: transparent; /* Remove a cor de fundo */
+  }
+  
+  .cabecalho .logo img {
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+  
+  .cabecalho .navegacao nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 600px;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 20px;
+  }
+  ul li{
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .cabecalho .navegacao ul a {
+    text-decoration: none;
+    color: white; /* Contraste com o fundo */
+    font-weight: bold;
+  }
+  
+  .cabecalho .navegacao nav ul img {
+    width: 40px;
+    height: 40px;
+    margin-top: -7px;
+  }
+  
+  .carousel-img {
+    height: 100vh; /* Faz o carrossel ocupar a altura da tela */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+  }
+  
+.bloco1{
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  gap:40px;
+
+}
+.imagem-b1 img{
+  width: 300px;
+  height: 350px;
+  margin-left: 90px;
+  margin-right: 60px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.imagem-b2 img{
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.imagem-b3 img{
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+img {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a transição da transformação e da sombra */
+}
+
+img:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 10% */
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2); /* Adiciona sombra quando o mouse passa */
+}
+
+.rodape{
+  width: 100%;
+  height: 250px;
+  margin-top: 60PX;
+  background-color: #b4babd;
+}
+.parte1{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-top: 20px;
+  gap: 100px;
+}
+.texto1{
+  margin-top: 20px;
+  margin-left: 60px;
+  
+}
+.texto1 h3 {
+  font-size: 30px;
+  color: white;
+}
+.texto2{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.texto2 p{
+  font-size: 15px;
+  font-weight: 500px;
+  color: white;
+}
+.texto3{
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.img-txt3-texto3 img{
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+.txt3 p b{
+  font-size: 20px;
+  color: white;
+}
+
+.parte2 h3 {
+  font-size: 15px;
+  margin-left: 350px;
+  color: #38B0E6;
+}
+
+.pp{ /* Textos dos cards*/
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.pp h3{
+  color: #38B0E6;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  
+}
+ h1{
+  font-family: "Roboto", serif;
+  font-weight: 900;
+}
+.texto1 h3 b{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+
+.texto2{
+  font-family: "Roboto", serif;
+  font-weight: 200;
+}
+.parte2 h3 b{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}

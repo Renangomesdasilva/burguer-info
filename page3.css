@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*------------------------- Inicio do cabeçalho ------------------------*/
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: #1d8f9d;
+}
+
+.logo img {
+    width: 110px;
+    height: 110px;
+    margin: 20px 0px 0px 40px;
+}
+
+.navegacao {
+    margin: 50px 0px 0px 700px;
+}
+
+.navegacao nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+   
+}
+.navegacao nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.instagram img {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.titulo-imagem {
+    width: 100%;
+    height: 400px;
+}
+
+.titulo-imagem img {
+    width: 100%;
+    height: 500px;
+}
+
+.lojas {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 100px;
+}
+
+.loja1 {
+    width: 300px;
+    height: 900px;
+    background-color: #F7F9FF;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.title h2 {
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 1200;
+    color: #1d8f9d;
+    font-size: 30px;
+}
+
+.loja1 h2 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.loja1 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.title h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #1d8f9d;
+}
+
+.sub-title h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #1d8f9d;
+}
+
+#horarios {
+    font-family: "Mona Sans", sans-serif;
+    color: #1d8f9d;
+}
+
+.maps iframe {
+    width: 280px;
+    height: 250px;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+
+.loja2 {
+    width: 300px;
+    height: 900px;
+    background-color: #F7F9FF;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.loja2 .title h2 {
+    margin-left: 50px;
+}
+
+.loja2 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.loja3 {
+    width: 300px;
+    height: 900px;
+    background-color: #F7F9FF;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.loja3 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.loja3 h2 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.rodape{
+    width: 100%;
+    height: 600px ;
+    margin-top: 100px;
+    background-color: #1d8f9d;
+    padding-top: 120px;
+    
+}
+
+.textee{
+    width: 80%;
+    height: 70px;
+    margin-left: 130px;
+    
+}
+
+.titulo_do_rodape{
+    margin-top: 10px;
+    color: white;
+    font-size: 37px;
+    margin-left: 160px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+}
+
+.texto_dois h2{
+    color: #F7F9FF;
+    font-size: 20px;
+    margin-left: 450px;
+}
+
+.plataforma{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 60px;
+}
+.pl1 img{
+    width: 200px;
+    height: 80px;
+    margin-left: 450px;
+}
+.pl2 img{
+    width: 200px;
+    height: 170px;
+    margin-top: -45px;
+}
